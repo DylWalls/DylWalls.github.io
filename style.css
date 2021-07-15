@@ -1,0 +1,47 @@
+body
+{
+  background-image: url("assets/background.jpg");
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.site-sidebar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    width: 15%;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(136, 136, 136, 0.45);
+}
+
+.sidebar-text {
+    text-align: left;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-45%, -6%);
+    color: white;
+}
+#circular--landscape {
+    margin-top: 25%;
+    width: 100%;
+    height: 25%;
+  }
+  
+#circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-left: 50px;
+    border-radius: 100%;
+  }
