@@ -11,7 +11,7 @@ h2
 h1{
   margin-top: 10px;
   font-style: italic;
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -35,6 +35,28 @@ body
   height: 100vh;
   overflow: hidden;
 }
+.parent {
+  position: relative;
+}
+
+.child-wrapper {
+  position: absolute;
+  top: 200px;
+  text-align: left;
+  transform: translateY(-50%);
+}
+.card {
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(136, 136, 136, 0.58);
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
 
 .site-sidebar {
     top: 0;
@@ -48,7 +70,14 @@ body
     text-align: center;
     background-color: rgba(136, 136, 136, 0.58);
 }
-
+.rectangle {
+  position: fixed;
+  left: 600px;
+  top: 0px;
+  height: 7.56in;
+  width: 14in;
+  background-color: rgb(136, 136, 136, 0.58);
+}
 .sidebar-text {
     margin: 0 auto;
     text-align: center;
@@ -58,13 +87,11 @@ body
     transform: translate(-45%, -6%);
     color: white;
 }
-.project1{
-  margin: ;
-  width: ;
-  height: ;
+.card-img, .card-img-bottom, .card-img-top {
+  width: 50%;
 }
 #circular--landscape {
-    margin-top: 25%;
+    margin-top: 10%;
     width: 278px;
     height: 150px;
     word-wrap: normal;
