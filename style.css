@@ -2,6 +2,17 @@ a {
   color: #ffffff;
   text-decoration: underline;
 }
+h5
+{
+  font-size: xx-large;
+}
+
+h6{
+  text-align: left;
+  font-size: x-large;
+  font-style: italic;
+  margin-top: 10px;
+}
 
 h2
 {
@@ -78,6 +89,14 @@ body
   width: 14in;
   background-color: rgb(136, 136, 136, 0.58);
 }
+.rectangle2 {
+  position: fixed;
+  left: 600px;
+  top: 0px;
+  height: 3.5in;
+  width: 14in;
+  background-color: rgb(136, 136, 136, 0.58);
+}
 .sidebar-text {
     margin: 0 auto;
     text-align: center;
@@ -90,6 +109,7 @@ body
 .card-img, .card-img-bottom, .card-img-top {
   width: 50%;
 }
+
 #circular--landscape {
     margin-top: 10%;
     width: 278px;
