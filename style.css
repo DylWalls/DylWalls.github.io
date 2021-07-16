@@ -1,3 +1,8 @@
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 h2
 {
   margin-bottom: 65px;
@@ -9,6 +14,7 @@ h1{
   font-size: 28px;
   text-align: center;
 }
+
 header{
   margin-bottom: 550px;
   font-size: xx-large;
@@ -51,6 +57,11 @@ body
     left: 43%;
     transform: translate(-45%, -6%);
     color: white;
+}
+.project1{
+  margin: ;
+  width: ;
+  height: ;
 }
 #circular--landscape {
     margin-top: 25%;
