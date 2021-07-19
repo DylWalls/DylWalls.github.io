@@ -5,6 +5,7 @@ a {
 h5
 {
   font-size: xx-large;
+  margin-top: 35px;
 }
 
 h6{
@@ -93,7 +94,7 @@ body
   position: fixed;
   left: 600px;
   top: 0px;
-  height: 3.5in;
+  height: 4in;
   width: 14in;
   background-color: rgb(136, 136, 136, 0.58);
 }
