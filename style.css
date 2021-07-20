@@ -52,7 +52,7 @@ body
 }
 
 .child-wrapper {
-  position: absolute;
+  position: relative;
   top: 200px;
   text-align: left;
   transform: translateY(-50%);
@@ -94,8 +94,8 @@ body
   position: fixed;
   left: 600px;
   top: 0px;
-  height: 4in;
-  width: 14in;
+  height: 50%;
+  width: 80%;
   background-color: rgb(136, 136, 136, 0.58);
 }
 .sidebar-text {
